@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-08T22:33:28Z" name="Relative Xpath Suite" finished-at="2020-10-08T22:33:43Z" duration-ms="15209">
+    <groups>
+    </groups>
+    <test started-at="2020-10-08T22:33:28Z" name="RelativeXpathTests" finished-at="2020-10-08T22:33:43Z" duration-ms="15209">
+      <class name="com.practicetestautomation.RelativeXpathTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.practicetestautomation.RelativeXpathTests@41a2befb]" started-at="2020-10-08T22:33:28Z" name="setUp" finished-at="2020-10-08T22:33:34Z" duration-ms="5541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="relativeXpathTest()[pri:1, instance:com.practicetestautomation.RelativeXpathTests@41a2befb]" started-at="2020-10-08T22:33:34Z" name="relativeXpathTest" finished-at="2020-10-08T22:33:43Z" duration-ms="9082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- relativeXpathTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.practicetestautomation.RelativeXpathTests@41a2befb]" started-at="2020-10-08T22:33:43Z" name="tearDown" finished-at="2020-10-08T22:33:43Z" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.practicetestautomation.RelativeXpathTests -->
+    </test> <!-- RelativeXpathTests -->
+  </suite> <!-- Relative Xpath Suite -->
+</testng-results>

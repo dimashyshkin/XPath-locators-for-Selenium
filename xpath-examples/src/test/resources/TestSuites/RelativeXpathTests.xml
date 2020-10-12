@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Relative Xpath Suite" verbose="1">
+
+	<test name="RelativeXpathTests">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.practicetestautomation.RelativeXpathTests">
+			</class>
+		</classes>
+	</test>
+
+</suite>
