@@ -26,7 +26,7 @@ public class RelativeXpathTests extends BaseTest {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='row2']")));
 
 		// Get list of all rows
-		List<WebElement> rows = driver.findElements(By.xpath("//div[@class='row']"));
+		List<WebElement> rows = driver.findElements(By.xpath("//div[@id='row2']/*[@id='save_btn']"));
 
 		String actualText = null;
 
@@ -42,7 +42,7 @@ public class RelativeXpathTests extends BaseTest {
 				row.findElement(By.xpath(".//input")).sendKeys("Sushi");
 
 				// Save new value by pushing Save button
-				driver.findElement(By.xpath("//button[@id='save_btn']"));
+				driver.findElement(By.xpath("//div[@id='row2']/*[@id='save_btn']")).click();
 
 				// Get new value to use in the assertion
 				actualText = row.findElement(By.xpath(".//input")).getAttribute("value");
